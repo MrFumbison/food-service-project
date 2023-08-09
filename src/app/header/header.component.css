@@ -1,0 +1,36 @@
+header{
+    background: white;
+    padding: 0;
+    border-bottom: 2px solid crimson;
+}
+
+a{
+    color: crimson;
+}
+
+a:hover{
+    background: crimson;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
